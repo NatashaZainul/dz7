@@ -11,7 +11,7 @@ void InputMatrix(double[,] matrix)
     {
         for (int n = 0; n < matrix.GetLength(0); n++)
        {
-          matrix[m,n] = Convert.ToDouble(new Random().Next(-100, 100)) / 10;
+          matrix[m,n] = Convert.ToDouble(new Random().Next(-100, 100)) / 100;
           Console.Write($"{matrix[m,n]} \t");
 
        }
